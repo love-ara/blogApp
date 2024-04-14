@@ -5,11 +5,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
-import static org.hamcrest.Matchers.notNullValue;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 @DataMongoTest
@@ -19,7 +18,7 @@ public class UserRepositoryTest {
     private UserRepository userRepository;
 
     @Test
-    public void createAPost_countIsOne(){
+    public void createAUser_countIsOne(){
         User user = new User();
         user.setId("1");
         user.setFirstName("firstname");

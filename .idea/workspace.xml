@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ff55cad-3a64-4744-b940-e34cbb8d8e8d" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/controllers/PostServicesController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/controllers/UserServicesController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/request/CommentRequest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/request/CreatePostRequest.java" afterDir="false" />
@@ -26,7 +25,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/CommentServicesImp.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/PostServices.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/PostServicesImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/ViewPostServices.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/ViewPostServicesImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/exception/IncorrectPasswordException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/exception/PostNotFoundException.java" afterDir="false" />
@@ -76,37 +74,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.UserRepositoryTest.executor": "Run",
-    "JUnit.UserServicesImplTest.executor": "Run",
-    "JUnit.UserServicesImplTest.userCanEditPostTest.executor": "Run",
-    "JUnit.UserServicesImplTest.userCanLoginTest.executor": "Run",
-    "JUnit.UserServicesImplTest.userCanMakeAPostTest.executor": "Run",
-    "JUnit.UserServicesImplTest.userCanMakeMoreThanPostTest.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.BlogApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/blogApp/src/main/java/africa.semicolon.blogApp/dtos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.UserRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServicesImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServicesImplTest.userCanEditPostTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServicesImplTest.userCanLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServicesImplTest.userCanMakeAPostTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServicesImplTest.userCanMakeMoreThanPostTest.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BlogApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/IdeaProjects/blogApp/src/main/java/africa.semicolon.blogApp/dtos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="africa.semicolon.blogApp.dtos.reponse" />
@@ -263,7 +261,16 @@
       <workItem from="1712123980230" duration="62000" />
       <workItem from="1712124188051" duration="22000" />
       <workItem from="1712309025536" duration="13973000" />
-      <workItem from="1712476809449" duration="8521000" />
+      <workItem from="1712476809449" duration="11788000" />
+      <workItem from="1712828668625" duration="2717000" />
+      <workItem from="1712850504529" duration="2907000" />
+      <workItem from="1712948344643" duration="597000" />
+      <workItem from="1712983167006" duration="2566000" />
+      <workItem from="1713003430315" duration="650000" />
+      <workItem from="1713012696450" duration="1315000" />
+      <workItem from="1713016926555" duration="595000" />
+      <workItem from="1713030909578" duration="2858000" />
+      <workItem from="1713080835547" duration="6054000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -345,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712648410118</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit">
+      <option name="closed" value="true" />
+      <created>1712724833486</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712724833486</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

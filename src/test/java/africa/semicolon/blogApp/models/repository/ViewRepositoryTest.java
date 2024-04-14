@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.*;
 
 
 @DataMongoTest
-public class ViewRepositoryTest {
+public class  ViewRepositoryTest {
     @Autowired
     private ViewRepository viewRepository;
 

@@ -1,10 +1,21 @@
 package africa.semicolon.blogApp.service;
 
-import africa.semicolon.blogApp.dtos.reponse.RegistrationResponse;
-import africa.semicolon.blogApp.dtos.request.RegistrationRequest;
+import africa.semicolon.blogApp.dtos.request.*;
+import africa.semicolon.blogApp.dtos.response.*;
+import africa.semicolon.blogApp.models.data.User;
+import org.springframework.stereotype.Service;
 
+@Service
 public interface UserServices {
-    //void registerUser(RegistrationRequest regRequest);
-    RegistrationResponse registerUser(RegistrationRequest regRequest);
+    //void registerUser(RegisterUserRequest regRequest);
+    RegisterUserResponse registerUser(RegisterUserRequest regRequest);
+    LoginResponse loginUser(LoginRequest loginRequest);
+    LogoutResponse logoutUser(LogoutRequest logoutRequest);
+    CreatePostResponse createPost(CreatePostRequest createRequest);
+    EditPostResponse editPost(EditPostRequest editRequest);
+    DeletePostResponse deletePost(DeletePostRequest deleteRequest);
+    ViewPostResponse viewPost(ViewPostRequest viewPostRequest);
+    CommentResponse comment(CommentRequest commentRequest);
+    User findUserBy(String username);
 
 }
