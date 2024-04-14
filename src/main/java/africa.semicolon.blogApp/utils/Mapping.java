@@ -61,6 +61,11 @@ public class Mapping {
                 .ofPattern("dd-MM-yyyy  hh:mm:ss a").format(post.getCreationDate()));
         return editPostResponse;
     }
+    public static DeletePostResponse deletePostMap(Post post) {
+        DeletePostResponse deletePostResponse = new DeletePostResponse();
+        deletePostResponse.setPostId(post.getId());
+        return deletePostResponse;
+    }
 
     public static Comment commentMap(CommentRequest commentRequest, User user){
         Comment comment = new Comment();
@@ -90,7 +95,17 @@ public class Mapping {
         return viewPostResponse;
     }
 
+    public static LoginResponse loginMap(LoginRequest loginRequest) {
+        LoginResponse loginResponse = new LoginResponse();
+        loginResponse.setUserId(loginRequest.getId());
+        return loginResponse;
+    }
 
 
+    public static LogoutResponse logoutMap(LogoutRequest logoutRequest){
+        LogoutResponse logoutResponse = new LogoutResponse();
+        logoutResponse.setUserId(logoutRequest.getUsername());
+        return logoutResponse;
+    }
 
 }
