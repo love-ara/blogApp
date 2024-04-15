@@ -1,9 +1,13 @@
 package africa.semicolon.blogApp.service;
 
 import africa.semicolon.blogApp.dtos.request.CommentRequest;
+import africa.semicolon.blogApp.dtos.request.DeleteRequest;
+import africa.semicolon.blogApp.dtos.request.EditRequest;
+import africa.semicolon.blogApp.dtos.response.DeleteResponse;
 import africa.semicolon.blogApp.models.data.Comment;
 import africa.semicolon.blogApp.models.data.User;
 import africa.semicolon.blogApp.models.repository.CommentRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,8 +16,8 @@ import java.util.List;
 import static africa.semicolon.blogApp.utils.Mapping.commentMap;
 
 @Service
+@AllArgsConstructor
 public class CommentServicesImp implements CommentServices {
-    @Autowired
     private CommentRepository commentRepository;
 
     @Override
@@ -24,19 +28,15 @@ public class CommentServicesImp implements CommentServices {
     }
 
     @Override
-    public void deleteComment(Comment comment) {
+    public DeleteResponse deleteComment(DeleteRequest deleteRequest) {
 
     }
 
     @Override
-    public void updateComment(Comment comment) {
+    public void updateComment(EditRequest comment) {
 
     }
 
-    @Override
-    public List<Comment> getAllComments() {
-        return null;
-    }
 
     @Override
     public List<Comment> searchForComment(String id) {

@@ -88,15 +88,18 @@ public class UserServicesImpl implements UserServices{
         if(!user.getPassword().equals(loginRequest.getPassword())){
             throw new IncorrectPasswordException("Password is incorrect");
         }
+        LoginResponse loginResponse = loginMap(loginRequest);
+        user.setLoggedIn(true);
         userRepository.save(user);
-        return null;
+        return loginResponse;
     }
 
     @Override
     public LogoutResponse logoutUser(LogoutRequest logoutRequest) {
-        User user = findUserBy(logoutRequest.getUsername());
-
-        return null;
+        var user = findUserBy(logoutRequest.getUsername());
+        user.setLoggedIn(false);
+        userRepository.save(user);
+        return logoutMap(logoutRequest);
     }
 
 

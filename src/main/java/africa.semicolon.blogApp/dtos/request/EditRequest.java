@@ -4,7 +4,7 @@ import lombok.Data;
 
 
 @Data
-public class EditPostRequest {
+public class EditRequest {
     private String id;
     private String title;
     private String content;

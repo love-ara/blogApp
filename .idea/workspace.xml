@@ -5,45 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ff55cad-3a64-4744-b940-e34cbb8d8e8d" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/controllers/UserServicesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/request/CommentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/request/CreatePostRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/request/DeletePostRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/request/EditPostRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/request/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/request/LogoutRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/request/ViewPostRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/response/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/response/CommentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/response/CreatePostResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/response/DeletePostResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/response/EditPostResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/response/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/response/LogoutResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/response/ViewPostResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/CommentServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/CommentServicesImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/PostServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/PostServicesImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/ViewPostServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/IncorrectPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/PostNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/UsernameNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/reponse/RegistrationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/response/RegisterUserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/request/RegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/dtos/request/RegisterUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/models/data/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/models/data/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/models/data/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/models/data/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/models/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/models/data/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/models/data/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/models/data/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/models/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/models/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/UserServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/PostServicesImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/PostServicesImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/UserServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/service/UserServicesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/utils/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa.semicolon.blogApp/utils/Mapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/blogApp/models/repository/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/blogApp/models/repository/UserRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/blogApp/models/repository/ViewRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/blogApp/models/repository/ViewRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/blogApp/service/UserServicesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/blogApp/service/UserServicesImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +57,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/IdeaProjects/blogApp/src/main/java/africa.semicolon.blogApp/dtos&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/IdeaProjects/blogApp/diagrams&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -112,6 +76,7 @@
       <recent name="africa.semicolon.blogApp.dto.request" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\blogApp\diagrams" />
       <recent name="C:\Users\Administrator\IdeaProjects\blogApp\src\main\java\africa.semicolon.blogApp\dtos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -270,7 +235,9 @@
       <workItem from="1713012696450" duration="1315000" />
       <workItem from="1713016926555" duration="595000" />
       <workItem from="1713030909578" duration="2858000" />
-      <workItem from="1713080835547" duration="6054000" />
+      <workItem from="1713080835547" duration="11763000" />
+      <workItem from="1713156052744" duration="592000" />
+      <workItem from="1713163204889" duration="1780000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -360,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712724833486</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit">
+      <option name="closed" value="true" />
+      <created>1713108316605</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713108316605</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

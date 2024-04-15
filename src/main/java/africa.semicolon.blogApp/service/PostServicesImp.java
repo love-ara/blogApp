@@ -57,6 +57,7 @@ public class PostServicesImp implements PostServices{
 
     @Override
     public DeletePostResponse deletePost(DeletePostRequest deletePostRequest) {
+
         DeletePostResponse deletePostResponse = new DeletePostResponse();
         deletePostResponse.setPostId(deletePostRequest.getId());
         Post foundPost = findPost(deletePostRequest.getId());

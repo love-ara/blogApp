@@ -39,7 +39,7 @@ public class UserServicesController {
     }
 
     @PostMapping("/edit-post")
-    public ResponseEntity<?> editPost(@RequestBody EditPostRequest editPostRequest) {
+    public ResponseEntity<?> editPost(@RequestBody EditRequest editPostRequest) {
         try{
             var post = userServices.editPost(editPostRequest);
             return new ResponseEntity<>(new ApiResponse(true, post), OK);
@@ -49,7 +49,7 @@ public class UserServicesController {
     }
 
     @DeleteMapping("/delete-post")
-    public ResponseEntity<?> deletePost(@RequestBody DeletePostRequest deletePostRequest) {
+    public ResponseEntity<?> deletePost(@RequestBody DeleteRequest deletePostRequest) {
         try{
             var post = userServices.deletePost(deletePostRequest);
             return new ResponseEntity<>(new ApiResponse(true, post), OK);

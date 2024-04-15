@@ -12,8 +12,8 @@ public interface UserServices {
     LoginResponse loginUser(LoginRequest loginRequest);
     LogoutResponse logoutUser(LogoutRequest logoutRequest);
     CreatePostResponse createPost(CreatePostRequest createRequest);
-    EditPostResponse editPost(EditPostRequest editRequest);
-    DeletePostResponse deletePost(DeletePostRequest deleteRequest);
+    EditPostResponse editPost(EditRequest editRequest);
+    DeleteResponse deletePost(DeleteRequest deleteRequest);
     ViewPostResponse viewPost(ViewPostRequest viewPostRequest);
     CommentResponse comment(CommentRequest commentRequest);
     User findUserBy(String username);
